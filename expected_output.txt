@@ -1,0 +1,15 @@
+Deriving the five chart polynomials from A and B...
+Checking the embedded exact subdivision certificate...
+checked 5000 / 38857 leaves
+checked 10000 / 38857 leaves
+checked 15000 / 38857 leaves
+checked 20000 / 38857 leaves
+checked 25000 / 38857 leaves
+checked 30000 / 38857 leaves
+checked 35000 / 38857 leaves
+CERTIFIED
+  nodes:      77713
+  leaves:     38857
+  max depth:  60
+  minimum exact integer leaf margin: 121251517
+The five tensor contractions have no common zero on [-1,1]^6.

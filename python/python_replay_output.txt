@@ -1,0 +1,12 @@
+# Cleaned exact Python replay
+# command: PYTHONUNBUFFERED=1 python3 python/verify_python_replay.py --maxnodes 1000000 --report 20000 --maxdepth 120
+# Python: 3.13.5
+# NumPy: 2.3.5
+# Platform: Linux x86_64
+
+PROGRESS 40000 stack 13 removed 19994 failed 19 deep 0 depth 23 worst 1.7731328283625964e-10 sec 128.1
+PROGRESS 60000 stack 9 removed 29996 failed 56 deep 0 depth 19 worst 1.0861910357739546e-10 sec 191.1
+PROGRESS 120000 stack 7 removed 59997 failed 179 deep 0 depth 17 worst 8.260995276720567e-11 sec 380.2
+PROGRESS 140000 stack 11 removed 69995 failed 215 deep 0 depth 23 worst 8.260995276720567e-11 sec 439.9
+FINAL nodes 141699 stack 0 removed 70850 failed 226 deep 0 worst_exact_margin 8.260995276720567e-11 seconds 444.936306476593
+CERTIFIED: exact interval Bernstein separation excludes a common zero on [-1,1]^6

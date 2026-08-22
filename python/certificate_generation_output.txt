@@ -1,0 +1,14 @@
+# Cleaned certificate-generation run
+# command: PYTHONUNBUFFERED=1 python3 python/generate_certificate.py --output /tmp/grunbaum_certificate.generated.bin --maxnodes 1000000 --maxdepth 120 --report 10000
+# Python: 3.13.5
+# NumPy: 2.3.5
+# Platform: Linux x86_64
+# Generated binary SHA-256: 66381f1454d7611abc10660e62cf33e617a2ff2dddeb032346688c75752f2ceb
+# The generated binary was byte-for-byte identical to the binary reconstructed from certificate/grunbaum_certificate.txt.
+
+PROGRESS 20000 stack 17 leaves 9992 failed 19 scalar 0 depth 23 worst_float 4.64815453750331e-10 sec 89.7
+PROGRESS 30000 stack 9 leaves 14996 failed 34 scalar 0 depth 15 worst_float 2.9652882227676395e-10 sec 134.0
+PROGRESS 50000 stack 11 leaves 24995 failed 103 scalar 0 depth 19 worst_float 5.076978474058764e-11 sec 220.6
+PROGRESS 60000 stack 13 leaves 29994 failed 111 scalar 0 depth 25 worst_float 5.076978474058764e-11 sec 265.6
+PROGRESS 70000 stack 5 leaves 34998 failed 155 scalar 0 depth 11 worst_float 5.076978474058764e-11 sec 310.3
+FINAL nodes 77713 leaves 38857 scalar 2 failed 202 worst_float 5.076978474058764e-11 worst_integer_longdouble 121251517.0 bytes 1632025 seconds 342.9871039390564
